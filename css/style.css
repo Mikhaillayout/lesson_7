@@ -1,0 +1,197 @@
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Начало === 2022-10 ==================== */
+@import "reset.css";
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Конец === 2022-10 ==================== */
+
+/* ==================== Подключение шрифтов ===  === Начало === 2022-10 ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+/* ==================== Подключение шрифтов ===  === Конец === 2022-10 ==================== */
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+  background-color: #e5e5e5;
+}
+/* ==================== Шапка сайта === (Подробнее) === Начало === 2022-10 ==================== */
+.header {
+  background-color: thistle;
+  margin: 0px 0px 20px 0px;
+}
+.header__container {
+  background-color: salmon;
+  max-width: 810px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+.header .header__link {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 20px -10px 2px wheat;
+  text-decoration: underline;
+}
+/* ==================== Шапка сайта === (Подробнее) === Конец === 2022-10 ==================== */
+
+/* ==================== Заголовок === (Частти:Артикль, Заголовок, Дата) === Начало === 2022-10 ==================== */
+.title {
+  margin: 0px 0px 40px 0px;
+}
+.title__container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.article {
+  margin: 0px 0px 12px 0px;
+}
+.article__link {
+  display: inline-block;
+  color: #424551;
+  padding: 0px 0px 0px 20px;
+  min-height: 21px;
+  line-height: 1.6;
+}
+.article__red {
+  color: #ff3f3a;
+  font-weight: 700;
+  border-left: 1px solid black;
+}
+.article__img {
+  background: url("../img/Files.png") 0 5px no-repeat;
+}
+
+.headline {
+  margin: 0px 0px 26px 0px;
+}
+.headline__heading {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.data__data-now {
+  background: url("../img/Calendar.png") 0 0 no-repeat;
+}
+.data__data-post {
+  background: url("../img/Clock.png") 0 0 no-repeat;
+}
+.data__data-now,
+.data__data-post {
+  display: inline-block;
+  padding-left: 20px;
+  color: rgba(120, 122, 128, 1);
+  min-height: 16px;
+}
+/* ==================== Заголовок === (Частти:Артикль, Заголовок, Дата) === Конец === 2022-10 ==================== */
+
+/* ==================== Главная картинка === (Части: картинка) === Начало === 2022-10 ==================== */
+.img {
+  margin-bottom: 60px;
+}
+.img__container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+.img__container img {
+  width: 100%;
+}
+/* ==================== Главная картинка === (Части: картинка) === Конец === 2022-10 ==================== */
+
+/* ==================== Весь текст === (Части: Параграфы, список) === Начало === 2022-10 ==================== */
+.text {
+  margin: 0px 0px 50px 0px;
+}
+.text__container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.paragraph {
+  margin: 0px 0px 24px 0px;
+  color: rgba(66, 69, 81, 1);
+  line-height: 1.6;
+}
+.right {
+  padding: 0px 0px 0px 58px;
+  background: url("../img/braces.png") 0 5px no-repeat;
+}
+.paragraph__bold {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(30, 33, 44, 1);
+}
+
+.list {
+  color: #424551;
+  margin: 0px 0px 24px 0px;
+}
+.list__item {
+  padding: 0px 0px 0px 32px;
+  margin: 0px 0px 4px 0px;
+  background: url("../img/check.png") 0 5px no-repeat;
+  min-height: 21px;
+  line-height: 1.6;
+}
+/* ==================== Весь текст === (Части: Параграфы, список) === Конец === 2022-10 ==================== */
+
+/* ==================== Подвал === (Подробнее) === Начало === 2022-10 ==================== */
+.footer {
+  background-color: thistle;
+  margin: 0px 0px 20px 0px;
+}
+.footer__container {
+  background-color: salmon;
+  max-width: 810px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+.footer .footer__link {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 20px -10px 2px wheat;
+  text-decoration: underline;
+}
+/* ==================== Подвал === (Подробнее) === Конец === 2022-10 ==================== */
+
+/* ==================== Тесты === (Тестики:)) === Начало === 2022-10 ==================== */
+
+.blocktest {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 65px;
+}
+.blocktest__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.blocktest__test {
+  margin: 0 0 30px;
+  border: 3px solid #ff3f3a;
+  min-height: 150px;
+}
+
+.testone {
+  background: darkorchid;
+}
+.testtwo {
+  background: url("../img/Screenshot_1.png");
+}
+.testthree {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 47%, rgba(0, 212, 255, 1) 100%);
+}
+.testfour {
+  background: url("../img/check.png") space;
+}
+.testfive {
+  background: url("../img/Calendar.png") 25px 20% no-repeat;
+}
+.testsix {
+  background: url("../img/Screenshot_1.png") 0 0 no-repeat fixed;
+}
+.testseven {
+  background: url("../img/Screenshot_1.png") 0 0 / cover no-repeat scroll;
+}
